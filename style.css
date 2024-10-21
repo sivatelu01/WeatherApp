@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: ghostwhite;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 500px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px;
+}
+
+.shape {
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.container {
+    position: relative;
+}
+
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+
+.cityname{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto;
+    margin: 10px;
+}
+
+
+.weathersize{
+    height: 12vh;
+    width: 8vw;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.tempvalue{
+    font-size: 70px;
+    font-weight: 400;
+    color: red;
+    text-align: center;
+}
+
+
+.temp-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.title{
+    text-align: center;
+    margin-right: 40px;
+}
+
+.temp{
+    text-align: center;
+    margin-right: 40px;
+    color: blue;
+}
+
